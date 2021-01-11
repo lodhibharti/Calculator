@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Advanced Calculator Assignment</title>
+        <script language="javascript" type="text"></script>
+    </head>
+    <body>
+        <form name="myform">
+        
+        <table align="center" border="40" bordercolor="green" bgcolor="#ADD8E6" width="30%" height="60%" cellspacing="8px">
+            <caption>CALCULATOR</caption>
+            <tr height="20%">
+                <td colspan="4" bgcolor="black"><input type="text" name="mytext"></td>
+            </tr>
+            <tr align="center">
+                <td><input type="button" value = "+" onclick=myform.mytext.value+="+"></td>
+                <td><input type="button" value = "-" onclick=myform.mytext.value+="-"></td>
+                <td><input type="button" value = "*" onclick=myform.mytext.value+="*"></td>
+                <td><input type="button" value = "/" onclick=myform.mytext.value+="/"></td>
+            </tr>
+            <tr  align="center">
+                <td><input type="button" value = "7" onclick=myform.mytext.value+="7"></td>
+                <td><input type="button" value = "8" onclick=myform.mytext.value+="8"></td>
+                <td><input type="button" value = "9" onclick=myform.mytext.value+="9"></td>
+                <td rowspan="4" bgcolor="orange"><input type="button" value = "=" onclick="myform.mytext.value=eval(myform.mytext.value)"></td>
+            </tr>
+            <tr  align="center">
+                <td><input type="button" value = "4" onclick=myform.mytext.value+="4"></td>
+                <td><input type="button" value = "5" onclick=myform.mytext.value+="5"></td>
+                <td><input type="button" value = "6" onclick=myform.mytext.value+="6"></td>
+            </tr>
+            <tr  align="center">
+                <td><input type="button" value = "1" onclick=myform.mytext.value+="1"></td>
+                <td><input type="button" value = "2" onclick=myform.mytext.value+="2"></td>
+                <td><input type="button" value = "3" onclick=myform.mytext.value+="3"></td>
+            </tr>
+            <tr align="center">
+                <td><input type="button" value = "0" onclick=myform.mytext.value+="0"></td>
+                <td><input type="button" value = "." onclick=myform.mytext.value+="."></td>
+                <td><input type="button" value = "C" onclick=myform.mytext.value=""></td>
+            </tr>
+        </table>
+        </form>  
+    </body>
+</html>
